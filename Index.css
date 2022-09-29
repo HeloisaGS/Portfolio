@@ -1,0 +1,99 @@
+body{
+    color: #F7F7F9;
+    background-color: #2B2D42;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    display: flex;
+    justify-content: space-between; /*Fica um ao lado do outro*/
+    list-style-type: none;
+    padding: 16px;
+}
+a {
+    color: #F7F7F9;
+    text-decoration: none;
+}
+header img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #41E2BA; /*Borda em volta da imagem*/
+}
+.center{ 
+    text-align: center;
+}
+h1{
+    color: #E86A92;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container{
+    padding: 0px 50px;
+}
+nav a:hover{
+    color: #E86A92;
+}
+section ul{
+    display: list-item;
+
+}
+section li{
+    list-style-type: disc;
+}
+.subtopico li {
+    list-style-type: circle;
+}
+
+/*Página de Contato*/
+
+.centro h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+.umterco {
+    display: inline-block;
+}
+.umterco img{
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+/*Página de Projetos*/
+h2{
+    text-align: center;
+}
+.parte{
+    display: inline-block;
+}
+.parte img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.parte p{
+    margin-right: 40px;
+}
+
+.parte:hover{
+    color: #41E2BA;
+}
+.parte img:hover{
+    border: 3px solid #41E2BA ;
+}
+
+.center p a:hover{
+    color:#E86A92;
+    text-decoration:underline;
+}
+
+
